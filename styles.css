@@ -1,5 +1,8 @@
 html {
   font-size: 10px;
+}
+
+body{
   background: url("back.png") bottom center;
   background-size: cover;
 }
@@ -48,4 +51,12 @@ span {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
+}
+
+li a{
+  margin-right: 40px;
+}
+
+.material-icons{
+  font-size: 3rem;
 }
