@@ -1,7 +1,7 @@
 ## Welcome to RetroJam App
 A Music App made by HTML,CSS,JavaScript
 
-Join me on the [discord](www.discord.in) channel @retrojamapp
+Join me on the [discord](https://discord.gg/6pqe58f) channel @retrojamapp
 
 ## Steps to follow :scroll:
 
@@ -12,8 +12,8 @@ You can get your own fork/copy of [RetroJam-App](https://github.com/richard937/R
 You need to clone (download) it to local machine using
 ```sh
 $ git clone https://github.com/Your_Username/RetroJam-App.git
+#This makes a local copy of repository in your machine.
 ```
-> This makes a local copy of repository in your machine.
 Once you have cloned the `RetroJam-App` repository in Github, move to that folder first using change directory command on Linux, Windows and Mac.
 ```sh
 $ cd RetroJam-App
