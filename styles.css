@@ -1,14 +1,30 @@
-html {
-  font-size: 10px;
-  background: url("back.png") bottom center;
-  background-size: cover;
-}
 
-/* body,html {
-  margin: 0;
+body,html {
+  margin: auto;
   padding: 0;
-  /* font-family: sans-serif;
-} */
+  font-size: 10px;
+  font-family: sans-serif;
+  background-color: #000c2a;
+ box-align: center;
+} 
+
+#particles-js{
+  position: center;
+   width: 100%;
+   height: 100%;
+   background-repeat: repeat;
+   background-size: cover;
+  background-image: url('');
+
+}
+.body-particles{
+  margin: auto;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 15%;
+  z-index: 100;
+}
 
 .keys {
   display: flex;
@@ -19,7 +35,7 @@ html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid rgb(175, 175, 175);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -28,8 +44,8 @@ html {
   width: 10rem;
   text-align: center;
   color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  background: rgba(24, 24, 24, 0.4);
+  text-shadow: 0 0 .5rem whitesmoke;
 }
 
 .playing {
