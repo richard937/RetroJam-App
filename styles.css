@@ -5,35 +5,22 @@ body,html {
   font-size: 10px;
   font-family: sans-serif;
   background-color: #000c2a;
- box-align: center;
 } 
 
-#particles-js{
-  position: center;
-   width: 100%;
-   height: 100%;
-   background-repeat: repeat;
-   background-size: cover;
-  background-image: url('');
 
-}
 .body-particles{
   margin: auto;
   pointer-events: none;
   position: absolute;
-  top: 0;
+  top: 35%;
   left: 15%;
+  right: 15%;
   z-index: 100;
-}
-
-.keys {
-  display: flex;
-  flex: 1;
-  min-height: 100vh;
   align-items: center;
   justify-content: center;
+  display: flex;
+  flex: 1;
 }
-
 .key {
   border: .4rem solid rgb(175, 175, 175);
   border-radius: .5rem;
