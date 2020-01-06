@@ -4,11 +4,36 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <title>Drum with JS</title>
 </head>
 
 <body>
+
+  <!--navbar start-->
+  <nav class="navbar navbar-expand-lg navbar-dark  fixed-top" style="font-size: 1.6rem;">
+    <a class="navbar-brand" href="index.html" style="font-size: 2.4rem;">MUSIC-BEATS</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><i class="material-icons">home</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact"><i class="material-icons">local_phone</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#developers"><i class="material-icons">supervisor_account</i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--navbar end-->
+
   <div class="keys">
     <div data-key="65" class="key">
       <kbd>A</kbd>
@@ -61,5 +86,7 @@
   <script src="drum.js"></script>
 
 </body>
-
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </html>
