@@ -18,3 +18,33 @@ function removeTransition(e) {
 let keys= document.querySelectorAll('.key');
 keys.forEach(key => key.addEventListener('transitionend',removeTransition));
 window.addEventListener('keydown',playSound);
+
+var clap = new Audio();
+clap.src="sounds/clap.wav"
+
+var hihat = new Audio();
+hihat .src="sounds/hihat.wav"
+
+var kick = new Audio();
+kick.src="sounds/kick.wav"
+
+var openhat = new Audio();
+openhat.src="sounds/openhat.wav"
+
+var boom = new Audio();
+boom.src="sounds/boom.wav"
+
+var ride = new Audio();
+ride.src="sounds/ride.wav"
+
+var snare = new Audio();
+snare.src="sounds/snare.wav"
+
+var tom = new Audio();
+tom.src="sounds/tom.wav"
+
+var tink = new Audio();
+tink.src="sounds/tink.wav"
+
+
+

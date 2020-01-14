@@ -10,39 +10,39 @@
 
 <body>
   <div class="keys">
-    <div data-key="65" class="key">
+    <div data-key="65" onclick="clap.play()"class="key">
       <kbd>A</kbd>
       <span>clap</span>
     </div>
-    <div data-key="83" class="key">
+    <div data-key="83" onclick="hihat.play()" class="key">
       <kbd>S</kbd>
       <span>hihat</span>
     </div>
-    <div data-key="68" class="key">
+    <div data-key="68" onclick="kick.play()" class="key">
       <kbd>D</kbd>
       <span>kick</span>
     </div>
-    <div data-key="70" class="key">
+    <div data-key="70" onclick="openhat.play()" class="key">
       <kbd>F</kbd>
       <span>openhat</span>
     </div>
-    <div data-key="71" class="key">
+    <div data-key="71" onclick="boom.play()" class="key">
       <kbd>G</kbd>
       <span>boom</span>
     </div>
-    <div data-key="72" class="key">
+    <div data-key="72" onclick="ride.play()" class="key">
       <kbd>H</kbd>
       <span>ride</span>
     </div>
-    <div data-key="74" class="key">
+    <div data-key="74" onclick="snare.play()" class="key">
       <kbd>J</kbd>
       <span>snare</span>
     </div>
-    <div data-key="75" class="key">
+    <div data-key="75" onclick="tom.play()" class="key">
       <kbd>K</kbd>
       <span>tom</span>
     </div>
-    <div data-key="76" class="key">
+    <div data-key="76" onclick="tink.play()" class="key">
       <kbd>L</kbd>
       <span>tink</span>
     </div>
@@ -59,7 +59,6 @@
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
   <script src="drum.js"></script>
-
 </body>
 
 </html>
