@@ -3,10 +3,16 @@ A Music App made by HTML,CSS,JavaScript
 
 Join me on the [discord](https://discord.gg/6pqe58f) channel @retrojamapp
 
+### Technology Used :gear: 
+* HTML
+* CSS
+* JavaScript
+
 ## Steps to follow :scroll:
 
 ### 1. Fork it :fork_and_knife:
 You can get your own fork/copy of [RetroJam-App](https://github.com/richard937/RetroJam-App) by using the <kbd><b>Fork</b></kbd> button
+![image](https://user-images.githubusercontent.com/41269164/72372951-61acec00-372d-11ea-8330-d64c23487d40.png)
 
 ### 2. Clone it :busts_in_silhouette:
 You need to clone (download) it to local machine using
@@ -24,7 +30,16 @@ Once you have completed these steps, you are ready to start contributing by chec
 
 ### 4. Create a pull request :bangbang:
 Make the necessary changes in your code and push it to Github:octocat:
-
+To create a new branch
+```sh
+$ git branch new_branch
+# Branch name is relevent to your work. 
+```
+Switch to desired branch
+```sh
+$ git checkout new_branch
+# See the asterisk on your new branch
+```
 To add the changes to the branch. Use
 ```sh
 $ git add .
@@ -48,3 +63,5 @@ I would love to have `new features` in this project.
 
 Please discuss it with me first before creating [new-issue](https://github.com/richard937/RetroJam-App/issues/new).
 :tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
+
+        READ instructions before making any pull request 💥 .
