@@ -1,7 +1,7 @@
-## Welcome to RetroJam App
+# Welcome to RetroJam App
 A Music App made by HTML,CSS,JavaScript
 
-Join me on the [discord](https://discord.gg/6pqe58f) channel @retrojamapp
+Join me on the [Discord](https://discord.gg/6pqe58f) channel @retrojamapp
 
 ## Steps to follow :scroll:
 
@@ -46,5 +46,5 @@ Then add a title and description to your pull request that explains your preciou
 ## Help Contributing Guides :crown:
 I would love to have `new features` in this project.
 
-Please discuss it with me first before creating [new-issue](https://github.com/richard937/RetroJam-App/issues/new).
-:tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
+Please discuss it with me first before creating [new-issue](https://github.com/richard937/RetroJam-App/issues/new).<br><br>
+<span style="text-align:center;">:tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:</span>
