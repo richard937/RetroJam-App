@@ -1,5 +1,5 @@
 # Welcome to RetroJam App
-A Music App made by HTML,CSS,JavaScript
+A Music App made by HTML, CSS, & JavaScript.
 
 Join me on the [Discord](https://discord.gg/6pqe58f) channel @retrojamapp
 
