@@ -4,12 +4,6 @@ html {
   background-size: cover;
 }
 
-/* body,html {
-  margin: 0;
-  padding: 0;
-  /* font-family: sans-serif;
-} */
-
 .keys {
   display: flex;
   flex: 1;
@@ -19,7 +13,7 @@ html {
 }
 
 .key {
-  border: .4rem solid black;
+  border: .4rem solid hsl(212, 76%, 77%);
   border-radius: .5rem;
   margin: 1rem;
   font-size: 1.5rem;
@@ -44,8 +38,9 @@ kbd {
 }
 
 span {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #FEE715FF;
 }
