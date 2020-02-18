@@ -9,7 +9,19 @@ html {
   padding: 0;
   /* font-family: sans-serif;
 } */
-
+h1{
+  font-size: 40px;
+  color:yellow;
+  text-align: center;
+  font-family: cursive;
+  margin: 0;
+}
+footer{
+  font-size: 16px;
+  color:white;
+  text-align: center;
+  font-family: cursive;
+}
 .keys {
   display: flex;
   flex: 1;
